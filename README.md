@@ -1,9 +1,9 @@
 This is a replacement board for the DEC8251 chip.
 
-It is based on the not pincompatible SN7442. Before using check if the
-pins 6 and 7 of the original DEC8251 are not in use. The 7442 truth table
+It is based on the SN7442. The SN7442 truth table
 is slightly different for the higher (forbidden) decoded lines.
-In most of the PDP8 applicatins this replacement can be used.
+In most of the PDP8 applicatins this replacement can be used
+because DEC does not use that forbidden address range.
 
 Regards, Roland Huisman
 
